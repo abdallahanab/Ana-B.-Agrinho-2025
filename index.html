@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mapa Interativo: Campo e Cidade</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🌾 Mapa Interativo: Campo e Cidade</h1>
+    <p>Clique em uma região para conhecer seus produtos e curiosidades!</p>
+    
+    <div class="botoes-regioes">
+      <button onclick="mostrarInfo('norte')">Norte</button>
+      <button onclick="mostrarInfo('nordeste')">Nordeste</button>
+      <button onclick="mostrarInfo('centro-oeste')">Centro-Oeste</button>
+      <button onclick="mostrarInfo('sudeste')">Sudeste</button>
+      <button onclick="mostrarInfo('sul')">Sul</button>
+    </div>
+
+    <div id="info-regiao" class="info-box">
+      <h2>Selecione uma região</h2>
+      <p>As informações aparecerão aqui.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
